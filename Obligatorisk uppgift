@@ -6,31 +6,19 @@ int main()
 {
     // Del 1, Lagra boknummer och födelseår.
 
-    double born;
-    double bok;
+    int born = 1996;
+    int bok = 2050;
     double length;
 
-    cout << "Denna informationen kommer lagras" << endl;
-    cout<< " " << endl;
-    cout << "Vilket \x86r \x84r du f\x94dd: " ;
-    cin >> born;
+   // Del 2, Skiva ut namn och vilket år du är född på samma rad.
 
-
-
-    cout << "Vilket nummer har din bok?: " ;
-    cin >> bok;
-
-    system("CLS");
-
-    // Del 2, Skiva ut namn och vilket år du är född på samma rad.
-
-    cout <<"Du heter " << "Joakim Hinder" << " " << "och \x84r f\x94\dd " << born << endl;
+    cout << "Jag heter Joakim Hinder och jag \x84r f\x94dd år" << born << endl;
 
 
 
     // Del 3, Textrad med boknummer
 
-    cout << "Du har bok nummer: " << bok << endl;
+    cout << "Min lärobok har nummer: " << bok << endl;
 
     cout<< " " << endl;
 
@@ -48,7 +36,7 @@ int main()
 
     // Del 5, Skriv ut differansen mellan numret på din lärobok och när du är född.
 
-    cout << "Differansen mellan ditt boknummer och ditt f\x94delse\x86r: " << bok - born << endl;
+    cout << "Differansen mellan ditt boknummer och ditt f\x94delse\x86r =  " << bok - born << endl;
 
     return 0;
 }
