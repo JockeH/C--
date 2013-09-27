@@ -1,0 +1,29 @@
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+
+
+    char namn[15];
+
+    cout << "Vad heter du?" << endl;
+    cin >> namn;
+
+    //kontroll
+    if (namn[0]==0 || namn[1]==0)
+    {
+        cout << "Namnet stämmer inte." << endl;
+    }
+    else if (namn[0] >= 65 && namn[0] <= 90)
+    {
+    cout << "Namnet ser korrekt ut." << endl;
+    }
+    else
+    {
+        cout << "Namnet stämmer inte" << endl;
+    }
+
+    return 0;
+}
